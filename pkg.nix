@@ -16,7 +16,7 @@ appimageTools.wrapType2 rec {
     description = "Visual editor for open FPGA boards";
     homepage = "https://github.com/FPGAwars/icestudio";
     license = licenses.gpl2;
-    maintainers = with maintainers; [luftmensch-luftmensch];
+    maintainers = with maintainers; [];
     mainProgram = "icestudio";
     platforms = ["x86_64-linux"];
   };
